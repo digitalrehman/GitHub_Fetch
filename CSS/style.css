@@ -1,0 +1,288 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #0D1117;
+    color: snow;
+}
+
+.head {
+    height: 60px;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    background-color: #010409;
+    color: snow;
+
+}
+
+.input a {
+    color: snow;
+    text-decoration: none;
+}
+
+.left {
+    display: flex;
+    margin-left: 10px;
+}
+
+.right {
+    display: flex;
+    margin-right: 10px;
+
+
+}
+
+input {
+
+    outline: none;
+    color: snow;
+    flex: 1%;
+    background-color: #010409;
+    border: none;
+    padding-left: 10px;
+    font-size: 16px;
+}
+
+.input {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    margin-top: 7px;
+    width: 27vw;
+    padding: 5px 10px;
+    border: 0.2px solid snow;
+    border-radius: 5px;
+}
+
+.icon:hover {
+    background-color: #6b7076;
+}
+
+.input .fa-solid {
+    font-size: 17px;
+}
+
+.line33 {
+    font-weight: 500;
+    margin: 7px;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 5px;
+
+
+}
+
+.line33:hover {
+    background: #141414;
+    border-radius: 5px;
+}
+
+.line1 {
+    margin: 7px;
+    cursor: pointer;
+    font-size: 23px;
+
+}
+
+.line2 {
+    margin-left: 7px;
+    cursor: pointer;
+    font-size: 32px;
+}
+
+.line4,
+.line5,
+.line6,
+.line7,
+.line8 {
+    border: 0.2px solid snow;
+    padding: 5px;
+    margin: 7px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.navline {
+    background-color: #010409;
+    color: snow;
+    display: flex;
+    height: 40px;
+    border: 2px solid black;
+    justify-content: flex-start;
+    align-items: center;
+    border-bottom: 0.2px solid snow;
+
+}
+
+.line {
+
+    margin: 15px 8px;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+.line:hover {
+    background: #141414;
+    border-radius: 5px;
+}
+
+.line i {
+    padding: 5px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.side {
+    margin-top: 20px;
+    width: 25vw;
+    height: 80vh;
+}
+
+.img {
+    width: 90%;
+}
+
+.img img {
+    border-radius: 50%;
+    overflow: hidden;
+    width: 100%;
+}
+
+.rightside {
+    width: 70vw;
+    margin-top: 20px;
+    border: 0.2px solid snow;
+    border-radius: 7px;
+    height: 50vh;
+    overflow: auto;
+}
+
+.content {
+    margin: 20px;
+
+}
+
+.username {
+    margin-top: 8px;
+}
+
+.description {
+    margin-top: 20px;
+
+}
+
+.detail {
+    margin: 15px;
+
+}
+
+.username h4 {
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.important {
+    display: flex;
+    margin: 12px 0px;
+
+}
+
+.information {
+    margin-top: 2rem;
+}
+
+.all {
+    margin-right: 10px;
+}
+
+.repo {
+    border: 2px solid black;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .head {
+        flex-direction: column;
+        height: 100px;
+        justify-content: center;
+    }
+
+    .input {
+        margin-right: 10px;
+        width: 40vw;
+    }
+
+}
+
+@media screen and (max-width:480px) {
+    .input {
+        margin-right: 5px;
+        width: 50vw;
+    }
+
+    .line i {
+        display: none;
+    }
+
+    .line {
+        margin: 15px 7px;
+        cursor: pointer;
+        padding: 4px;
+
+    }
+
+    .navline {
+        overflow: auto;
+    }
+
+    .right {
+
+        margin: 2px 5px;
+
+
+    }
+
+    .container {
+        flex-direction: column;
+    }
+
+    .side {
+        margin: 15px;
+        width: 90vw;
+        height: 102vh;
+    }
+
+    .detail {
+        margin: 10px 20px;
+
+    }
+
+    .rightside {
+        width: 90vw;
+        margin: 15px;
+
+        height: 30vh;
+
+    }
+
+    .information {
+        margin-top: 35px;
+    }
+
+    .head {
+        overflow: auto;
+        width: 90vw;
+    }
+
+
+}
